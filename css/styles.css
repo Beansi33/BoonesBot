@@ -231,3 +231,6 @@
   <script src="js/main.js" defer></script>
 </body>
 </html>
+
+/* hidden-attribuut moet de cookiebanner echt verbergen */
+.cookie-banner[hidden]{display:none !important;}

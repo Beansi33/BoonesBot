@@ -1,0 +1,7 @@
+# Dependabot houdt de GitHub Actions van de website actueel.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

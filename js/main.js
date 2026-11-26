@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const subject = encodeURIComponent('Contact via De Glimlachfabriek - ' + name);
     const body = encodeURIComponent(message + "\n\n---\n" + name + "\n" + email);
-    window.location.href = `mailto:${config.contact_email || 'info@deglimlachfabriek.nl'}?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${config.contact_email || 'boone.randy33@gmail.com'}?subject=${subject}&body=${body}`;
     return false;
   };
 
